@@ -31,8 +31,8 @@ public class FileUpdateController {
 
         }
     }
-    @GetMapping("/files/{fileName:.+}")
-    public ResponseEntity<byte[]>readdetaiFile(@PathVariable String fileName){
-        return ;
-    }
+//    @GetMapping("/files/{fileName:.+}")
+//    public ResponseEntity<byte[]>readdetaiFile(@PathVariable String fileName){
+//        return ;
+//    }
 }
